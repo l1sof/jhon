@@ -1,0 +1,26 @@
+.link-blue {
+  color: #00a8cc;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.active {
+  color: #ff6464;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+header{
+    display: flex;
+    justify-content: end;
+}
+
+.menu{
+
+    gap: 32px;
+}
