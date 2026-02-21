@@ -1,10 +1,15 @@
-.link-blue {
+.recent__link {
   color: #00a8cc;
+}
+
+:root{
+  --dark: #21243D;
 }
 
 a {
   color: #000;
   text-decoration: none;
+
 }
 
 .active {
@@ -39,4 +44,36 @@ header {
   flex-direction: column;
   gap: 40px;
   max-width: 500px;
+  align-items: start;
+}
+
+.image{
+  width: 243px;
+  height: 243px;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: -5px 13px 0 #EDF7FA;
+}
+
+.title{
+  font-size: 44px;
+  font-weight: bold;
+  color: var(--dark);
+}
+
+.text{
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--dark);
+}
+
+.button{  
+  color: #fff ;
+  background-color: #ff6464;
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 9px 20px ;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
 }
